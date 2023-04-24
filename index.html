@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>курс валют</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div id="tableOne"></div>
+    <button type="button" id="btn">Відкрити/Закрити доп форму</button>
+    <div id="tableMore"></div>
+    
+    <div id="converter">
+        <h2>Конвертер купівлі валют USD/EUR</h2>
+        <div>
+            <label for="input">Введіть кількість валюти:</label>
+            <input type="number" id="input">
+        </div>
+        <div>
+            <label for="value">Оберіть валюту для конвертації:</label>
+            <select id="value">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+    
+            </select>
+        </div>
+        <div id="btns">
+            <button id="sale" class="btnka">купити</button>
+            <button id="buy" class="btnka">продати</button>
+        </div>
+        
+        <p id="result">Результат конвертації буде тут</p>
+    </div> 
+
+    
+    <div id="converterMore">
+        <h2>Конвертер купівлі валют з повним списком валют</h2>
+        <div>
+            <label for="inputMore">Введіть кількість валюти:</label>
+            <input type="number" id="inputMore">
+        </div>
+        <div>
+            <label for="valueMore">Оберіть валюту для конвертації:</label>
+            <select id="valueMore">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="CHF">CHF</option>
+                <option value="GBP">GBP</option>
+                <option value="PLZ">PLZ</option>
+                <option value="JPY">JPY</option>
+                <option value="CAD">CAD</option>
+                <option value="NOK">NOK</option>
+            </select>
+        </div>
+        <div id="btns">
+            <button id="saleMore" class="btnka">купити</button>
+            <button id="buyMore" class="btnka">продати</button>
+        </div>
+        <p id="resultMore">Результат конвертації буде тут</p>
+    </div>
+    <script src="./script/dz.js"></script>
+</body>
+</html>
